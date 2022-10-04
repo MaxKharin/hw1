@@ -12,4 +12,4 @@ x_b = int(input('x: '))
 y_b = int(input('y: '))
 
 from math import sqrt
-print('Distance between A and B: ', round(sqrt((x_a - x_b) ** 2 + (y_a - y_b) ** 2), 2))
+print('The distance between a and b is: ', round(sqrt((x_a - x_b) ** 2 + (y_a - y_b) ** 2), 2))
