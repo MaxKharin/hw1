@@ -11,12 +11,12 @@ x = int(input('Enter x: '))
 y = int(input('Enter y: '))
 
 if x > 0 and y > 0:
-    print('The dot is in the first quarter.')
+    print('The point is in the first quarter.')
 elif x < 0 and y > 0:
-    print('The dot is in the second quarter.')
+    print('The point is in the second quarter.')
 elif x < 0 and y < 0:
-    print('The dot is in the third quarter.')
+    print('The point is in the third quarter.')
 elif x > 0 and y < 0:
-    print('The dot is in the fourth quarter.')
+    print('The point is in the fourth quarter.')
 else:
     print('Please, enter integer numbers, that are not equal to 0.')
