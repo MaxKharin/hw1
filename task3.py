@@ -12,11 +12,11 @@ y = int(input('Enter y: '))
 
 if x > 0 and y > 0:
     print('The dot is in the first quarter.')
-elif x > 0 and y < 0:
+elif x < 0 and y > 0:
     print('The dot is in the second quarter.')
 elif x < 0 and y < 0:
     print('The dot is in the third quarter.')
-elif x < 0 and y > 0:
+elif x > 0 and y < 0:
     print('The dot is in the fourth quarter.')
 else:
     print('Please, enter integer numbers, that are not equal to 0.')
